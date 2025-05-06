@@ -5,7 +5,7 @@ This project is part of the Titanic Kaggle competition. The goal is to predict s
 ##  Objective
 
 - Predict whether a passenger survived the Titanic disaster using demographic and passenger data.
-
+- link Kaggle `https://www.kaggle.com/code/tinguyntrng/titanic`
 ## Tools & Technologies
 
 - Python
@@ -16,7 +16,7 @@ This project is part of the Titanic Kaggle competition. The goal is to predict s
   - `sklearn` for modeling
   - `xgboost` or other models (depending on notebook)
 
-## ⚙️ How to Run
+##  How to Run
 
 1. Clone the repository.
 2. Ensure required packages are installed (listed in `requirements.txt` - `pip install -r requirements.txt` or install manually).
@@ -26,7 +26,7 @@ This project is part of the Titanic Kaggle competition. The goal is to predict s
    - Train and validate the model
    - Generate predictions for submission
 
-## 📈 Model Performance
+##  Model Performance
 
 - **Validation Accuracy**: ~85%
 - **Kaggle Submission Score**: ~76%
@@ -34,20 +34,17 @@ This project is part of the Titanic Kaggle competition. The goal is to predict s
 > Note: The drop in performance from validation to Kaggle score may indicate overfitting or differences in test data distribution.
 
 ##  Project Structure
-├── data/
-│   ├── train.csv
-│   ├── test.csv
-│   └── README.md      
-├── notebooks/
-│   └── titanic_analysis.ipynb
-├── src/
-│   ├── preprocessing.py
-│   ├── model.py
-│   └── utils.py
-├── outputs/
-│   ├── model.pkl
-│   └── submission.csv
-├── requirements.txt
-├── README.md
-└── .gitignore
+-  ├── data/
+-  │   ├── train.csv
+-  │   ├── test.csv
+-  │   └── README.md      
+-  ├── notebooks/
+-  │   └── titanic_analysis.ipynb
+-  ├── src/
+-  ├── outputs/
+-  │   ├── model.pkl
+-  │   └── submission.csv
+-  ├── requirements.txt
+-  ├── README.md
+-  └── .gitignore
 
